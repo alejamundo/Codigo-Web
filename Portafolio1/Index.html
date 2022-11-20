@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/f22f712e94.css">
+    <title>Alejandra Orrego</title>
+    <style type="text/css">
+    .jumbotron {
+      background-image: url(background.jpg);
+      text-align:center;
+      margin-top:50px;
+      margin-bottom: auto;
+    }
+    #email {
+      width: 300px;
+    }
+    #resumenapp {
+      text-align:justify;
+      margin-top:70px;
+      margin-bottom:50px;
+      padding-left: 15%;
+    }
+    .card-img-top {
+      width:100%;
+    }
+    #footer {
+      background-color:orange;
+      padding-top: 150px;
+      margin-top:150px;
+      text-align: center;
+      padding-bottom: 150px;
+    }
+    body {
+      position:relative;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    .contacto{
+      width: 10%;
+      padding-top: 2%;
+      border-radius: 50%;
+    }
+    .decorar_imagen{
+      width: 15%;
+      border-radius: 50%;
+      padding-left: 1%;
+      border-top-left-radius: 50%;
+      border-bottom-right-radius: 50%;
+      float: left;
+      padding-top: 5%;
+    }
+    .tabla{
+      float: right;
+      margin-right: 7%;  
+      margin-top: 5%;   
+    }
+    .java{
+      float: top;
+      width: 50%;
+      padding-left: 15;
+      padding-top: 0%;
+    }
+    </style>    
+  </head>
+  <!--
+    pagina principal contiene un menu sostenido con los link para cada indice de la pagina
+  -->
+
+  <body data-spy="scroll" data-target="#navbar" data-offset="150">
+    <nav class="navbar navbar-light bg-faded navbar-fixed-top" id="navbar">
+      <a class="navbar-brand" href="#"><b>Inicio</b> </a>
+      <ul class="nav navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#acercade"><b>Acerca de</b> <span class="sr-only">(current)</span></a> </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portafolio"><b>Portafolio</b> </a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#descargar"><b>Contacto</b> </a> 
+          </li> 
+      </ul>
+      <form class="form-inline pull-xs-right">
+        <p>"La función de un buen software es hacer que lo complejo aparente ser simple"
+        <sub>-- Grady Booch</sub> </p>
+      </form>
+    </nav>    
+    <div class="jumbotron">
+      <h1 class="display-3" id="jumbotron"><img src="icon.ico" width="90" height="90"> Alejandra Orrego <img src="icon.ico" width="90" height="90"></h1>
+      <p class="lead">"Si lo puedes imaginar lo puedes programar."</p>
+      <hr class="m-y-2">
+      <p>¿Deseas conocer más sobre mi.? ¡Otros canales!</p>
+      <form class="form-inline">
+        <div class="form-group">
+          <a href="https://www.facebook.com/alejandra1higuita" target="_blank"><img class="contacto" src="facei.jpg" alt="icono_facebook"></a><a href="https://www.instagram.com/aleja.developer/" target="_blank"><img class="contacto" src="inst.jpg" alt="instagram"></a>
+        </div>
+      </form>
+    </div>
+
+<!--
+  segunda pagina, aqui hablo acerca de mi, contiene imagenes y tablas
+-->
+    <p id="acercade" ><img class="decorar_imagen" src="perfil.jpg" ></p>
+    <div class="container" id="resumenapp" >
+      <div class="row" >
+        <p> <h1 >¿Quien soy?</h1>
+        <p class="lead" class="parrafo">Hola! Soy Alejandra estudiante de sistemas del instituto universitario tecnológico de Antioquia. Tengo habilidades en manejo de plataformas ofimáticas, manejo el lenguaje de programación <b>java</b>, adicional a esto tengo conocimientos en <b> HTML, CSS Y JavaScript </b>utilizados en el desarrollo web. <br> Soy una mujer disciplinada, autodidacta y comprometida, tengo muchas aspiraciones y anhelo trabajar en una empresa de tecnología en el are de desarrollo de software backend o frontend según se requiera.</p></p>
+        <table border="1" class="tabla" >
+          <thead>
+              <tr><th><b>Habilidades</b></th><th><b>Nivel</b></th></tr>
+          </thead>
+          <tbody>
+              <tr><td>Lenguaje de programación java.</td><td>Básico</td></tr>
+              <tr><td>Lenguaje de programación Python.</td><td>Básico</td></tr>
+              <tr><td>Bases de datos relacionales. SQL</td><td>Básico</td></tr>
+              <tr><td>Ingles</td><td>Básico</td></tr>
+              <tr><td>Lenguaje de marcado de hipertexto. HTML</td><td>Básico</td></tr>
+            </tbody>
+        </table>
+        <img  class="java" src="javaii.png" alt="java">
+      </div>
+    </div>
+
+    <!--
+      pagina 3 aqui encuentro puntos acerca de mi portafolio personbal en github y algunas imagenes representativas de los proyectos
+    -->
+    <div class="container">
+      <div class="card-deck-wrapper">
+        <div class="card-deck" id="portafolio">
+          <div class="card" >
+            <img class="card-img-top" height="350" src="logica.jpg" alt="Card image cap">
+            <div class="card-block" >
+              <h4 class="card-title"><i class="fa fa-anchor" aria-hidden="true"></i><a href="https://github.com/alejamundo/Inicios_pseint" target="_blank">Algoritmos en pseint</a></h4>
+              <p class="card-text">En este repositorio encontraras los diferentes algoritmos que he venido desarrollando durante mi aprendizaje en lógica de programación. </p>
+              <p class="card-text"><small class="text-muted"> “ Sabes cuál es el problema? Imaginarte el algoritmo y no programarlo”  – Paul Huanca</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="java-logo.jpg" alt="Card image cap">
+            <div class="card-block">
+              <h4 class="card-title"><i class="fa fa-battery-full" aria-hidden="true"></i><a href="https://github.com/alejamundo/proyectosJava"target="_blank">Proyectos en java</a>
+              </h4>
+              <p class="card-text">En este repositorio encontraras diferentes proyectos que he venido realizando en el aprendizaje del lenguaje de programación orientado a objetos; Java.</p>
+              <p class="card-text"><small class="text-muted">.“Sé bueno con los nerds. Es muy probable que termines trabajando para uno de ellos”. –  Bill Gates</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img-top" src="web.png" alt="Card image cap">
+            <div class="card-block">
+              <h4 class="card-title"><i class="fa fa-bar-chart" aria-hidden="true"></i><a href="https://github.com/alejamundo/MySitio" target="_blank">Proyectos desarollo web</a> </h4>
+              <p class="card-text">En este repositorio encontraras los diferentes proyectos en los que desarrollado paginas web y aprendizajes de las diferentes tecnologías respecto a frontend.</p>
+              <p class="card-text"><small class="text-muted">"Antes de que un software sea reutilizable debería ser utilizable”  –  Ralph Johnson</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--
+     pagina 4 pie de pagina con fondo solido e imagenes
+    -->
+    <div id="footer">
+      <div class="row">
+        <h2 id="descargar">¡Gracias por visitar mi sitio!</h2>
+        <p class="lead">Si deseas contactarme escribeme, estoy atenta.</p>
+        <p><a href="https://wa.link/3g2033" target="_blank"><img class="contacto" src="what.jpg"></a><a href="" target="_blank"><img class="contacto" src="gmail.png"></a></p>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+  </body>
+</html>

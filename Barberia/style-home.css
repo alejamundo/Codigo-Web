@@ -1,0 +1,48 @@
+.tituloP {
+    padding-left: 30px;
+}
+
+#banner{
+    width: 100%;
+
+}
+
+.principal{
+    background-color: #cccccc;
+    padding: 20px;
+}
+.centrar{
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+em strong {
+    /*referencia especificamente al que tenga esa conbinacion de etiquetas*/
+    color: red;
+}
+
+#mision{
+    font-size: 20px;
+}
+.diferenciales{
+    background-color: white;
+    padding: 30px;
+}
+
+.items{
+    font-style: italic;
+}
+
+ul{
+    display: inline-block;/*ocupa solo el espacio de su contenido*/
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.imagenDiferenciales{
+    width: 50%;
+    
+}

@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css</title>
+    <link rel="stylesheet" href="Css/estilos.css">
+    <link rel="shortcut icon" href="img/rey.png">
+</head>
+
+<body>
+    <div id="contenedor">
+        <header>
+            <img id="logo" src="img/logo.jpg" alt="" width="60">
+            <h1>CSS (Cascading Style Sheets).</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="html.html">HTML</a></li>
+                <li><a href="css.html">CSS</a></li>
+                <li><a href="javascritp.html">JavaScript</a></li>
+                <li><a href="encuesta.html">Encuesta</a></li>
+            </ul>
+        </nav>
+        <div id="content">
+            <section>
+                <a name="Intro">
+                    <article>
+                        <h3>¿Qué es CSS?</h3> <br>
+
+                        <p>
+                            CSS son las siglas en inglés para «hojas de estilo en cascada» (Cascading Style Sheets).
+                            Básicamente, es un lenguaje que maneja el diseño y presentación de las páginas web, es
+                            decir, cómo lucen cuando un usuario las visita. Funciona junto con el lenguaje HTML que se
+                            encarga del contenido básico de las páginas.
+
+                        </p> <br>
+                        <h3>6 Caracteristicas de CSS</h3> <br>
+                        <p>
+                        <ol>
+                            <li>Es un lenguaje de programación diferente a HTML.</li>
+                            <li>Permite el apilamiento de instrucciones para definir formatos específicos.</li>
+                            <li>Es utilizable en todos los navegadores y plataformas.</li>
+                            <li>Optimiza el funcionamiento de las páginas web.</li>
+                            <li>Tiene una sintaxis específica.</li>
+                            <li>Permite personalizar totalmente la apariencia de las páginas.</li>
+                        </ol>
+                        </p> <br>
+                        <hr>
+                    </article>
+                </a>
+                <a name="reglas">
+                    <article>
+                        <h3>Reglas Código CSS</h3><br>
+                        <img src="img/regla.PNG" alt=""> <br> <br><br><br><br><br><br>
+                        <br><br><br><br><br><br> <br>
+                        <p>Como lo muestra la imagen anterior, existen cuatro componentes principales: selector,
+                            declaraciones, propiedades y valores.</p> <br>
+                        <h3>Los 3 tipos de estilos CSS</h3> <br>
+                        <ol>
+                            <li> <strong>CSS externo</strong> <br>
+                                El CSS externo existe en su propio archivo. Este archivo está enlazado a un documento
+                                HTML con una etiqueta
+                                <link>. Este es el método más usado para añadir CSS a HTML, ya que una hoja de estilo
+                                externa puede dictar el estilo de diferentes documentos HTML. Esto permite que los
+                                desarrolladores hagan cambios a lo ancho del sitio con un solo archivo CSS. <br> <br>
+                                <img src="img/externol.PNG" alt="">
+                            </li>
+                            <li><strong>CSS Interno</strong>
+
+                                El CSS interno es un código CSS incrustado en un documento HTLM. Está escrito dentro del
+                                elemento &lt;style&gt; que se acomoda en la sección de &lt;head&gt;.
+                            </li> <br>
+                            <li><strong>CSS en línea</strong> <br>
+                                CSS en línea se ubica dentro de una etiqueta HTML para cambiar el estilo de un elemento
+                                en específico. La sintaxis inline es un poco diferente de lo que hemos visto: la
+                                declaración está escrita como el valor del atributo de estilo.
+                            </li>
+                            <li>¿Cuál es la diferencia entre id y class? <br>
+                                Id asigna un nombre a un elemento determinado, por lo que no puede utilizarse en otro. Y
+                                class asigna un elemento a una clase; tampoco puede haber dos elementos con la misma
+                                clase. Pero con CSS puedes aplicar estilos tanto a un id como a una clase.
+                            </li>
+                        </ol>
+                    </article>
+                </a>
+            </section>
+
+
+        </div>
+        <aside>
+            <ul id="hipervinculos">
+                <li>
+                    <a href="#intro" rel="noopener noreferrer">Introducción</a>
+                </li>
+                <li>
+                    <a href="#reglas" rel="noopener noreferrer">Reglas CSS</a>
+                </li>
+                <li>
+                    <a href="#preguntas" rel="noopener noreferrer">preguntas</a>
+                </li>
+            </ul>
+
+            <article id="estiloLetra"> <br>
+                <a name="preguntas">
+                    <h4>3 preguntas frecuentes sobre CSS</h4> <br>
+                    <ol>
+                        <li>¿Puedes diseñar una página web sin CSS? <br>
+                            Debido a que el lenguaje HTML es el que se encarga de estructurar los contenidos de una
+                            página web, técnicamente sería lo único que necesitarías para mostrar texto, imágenes,
+                            secciones y videos a tus visitantes. No obstante, CSS es el lenguaje que se encarga de que
+                            el diseño sea atractivo, ordenado y que dé una buena experiencia de usuario.
+
+                        </li> <br> <br>
+                        <li> ¿Qué es cascada CSS? <br>
+                            cascada significa que CSS considera el orden de las reglas cuando le da estilo a los
+                            elementos. La regla de la cascada dicta que si la propiedad CSS de un elemento tiene
+                            asignados diferentes valores, entonces el navegador tomará el valor que fue procesado al
+                            final.
+
+                        </li> <br>
+                        <li>¿Qué es especificidad CSS? <br>
+                            CSS dice que los selectores de clase son más «específicos» que los selectores de elementos;
+                            y los selectores de identidad son más «específicos» que los selectores de clase. En el
+                            ejemplo anterior, la primera regla CSS utiliza un selector de identidad, por lo que el valor
+                            de rojo prevalece, ya que es más específico que el valor del elemento.
+                        </li> <br><br>
+                        <img src="img/css.png" alt="" width="250" height="250">
+                    </ol> <br><br>
+                    <p><strong><i>¡No pares de aprender!</i></strong> </p>
+                </a>
+            </article>
+        </aside>
+        <div>
+            <footer>
+
+                <a href="https://www.facebook.com/alejandra1higuita" target="_blank"><img id="efectoimg"
+                        alt="Siguenos en Facebook"
+                        src="https://lh6.googleusercontent.com/-CYt37hfDnQ8/T3nNydojf_I/AAAAAAAAAr0/P5OtlZxV4rk/s32/facebook32.png"
+                        width=32 height=32 /> Facebook</a> &nbsp; &nbsp; &nbsp; &nbsp;
+                <a href="https://web.whatsapp.com/" target="_blank"><img id="efectoimg" alt="Siguenos en Facebook"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/1200px-WhatsApp.svg.png"
+                        width=32 height=32 /> WhatsApp</a>
+                <p>
+                    Email: Tecnologico@gmail.com &nbsp;&nbsp;&nbsp; &copy; CopyRight - Aleja
+                    Orrego
+                </p>
+
+
+            </footer>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

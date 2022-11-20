@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="caja">
+            <h1><img src="imagenes/logo.png" /></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form action="">
+            <label for="nombre">Nombre y Apellido</label>
+            <input type="text" id="nombre" placeholder="Ingrese su nombre" class="patron" required />
+            <label for="correo">Email</label>
+            <input type="email" name="" id="correo" class="patron" placeholder="ejemplo@gmail.com" required />
+            <label for="telefono">Telefono</label>
+            <input type="tel" id="telefono" class="patron" placeholder="3218792514" required />
+
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" cols="70" rows="10" class="patron" required></textarea>
+
+            <fieldset>
+                <legend> ¿Comó le Gustaría ser Contactado?</p>
+                </legend>
+
+                <label for="radioImail"><input type="radio" id="radioImail" value="Email"
+                        name="contacto" />Email</label>
+
+                <label for="telefono"><input type="radio" id="radioImail" value="Telefono"
+                        name="contacto" />Telefono</label>
+
+                <label for="whatsaap"><input type="radio" id="whatsaap" value="Email" name="contacto" checked />Whatsaap
+                </label>
+            </fieldset>
+            <fieldset>
+                <!--Datos que referencian un grupo de datos-->
+                <legend> ¿En cúal horario prefiere ser atendido?</legend>
+
+                <select name="" id="">
+                    <option value="">Mañana</option>
+                    <option value="">Tarde</option>
+                    <option value="">Noche</option>
+                </select>
+            </fieldset>
+
+            <label for="" class="checkbox"><input type="checkbox" checked />¿Le gustaría resivir novedades de la
+                Barbería Alura?</label>
+
+            <input type="submit" value="Enviar" class="enviar" />
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Día</th>
+                    <th>Horario</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lunes</td>
+                    <td>08h - 20h</td>
+                </tr>
+                <tr>
+                    <td>Miercoles</td>
+                    <td>08h - 20h</td>
+                </tr>
+                <tr>
+                    <td>Viernes</td>
+                    <td>08h - 20h</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </main>
+    <footer>
+        <img src="imagenes/logo-blanco.png" alt="Imagen" />
+        <p class="copi">&copy; Copyright Barbería Alura-2022</p>
+    </footer>
+</body>
+
+</html>

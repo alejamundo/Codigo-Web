@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#contenedor{
+    width:1200px;
+    margin:0px auto;
+    border: 1px solid rgb(0, 0, 0);
+  }
+
+body {
+    background-color: rgb(2, 2, 2);
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif
+}
+
+header {
+    background-color: rgb(8, 8, 8);
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    /*Alinea al centro el texto*/
+    color:#eca023;
+    position: relative;
+}
+
+nav ul {
+    list-style: none;
+    overflow: hidden;
+}
+nav ul li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;;
+    font-size: 20px;
+}
+
+nav ul li a {
+    display: block; 
+    padding: 50px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+nav ul li {
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-left: 8%;
+}
+
+nav ul li a {
+    display: block;
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li:hover {
+    background: #eca023;
+}
+
+#content {
+    float: right;
+    width: 70%;
+    background-color: rgba(41, 39, 39, 0.616);
+    min-height: 500px;
+    padding: 40px;
+    margin-top: 2%;
+    font-size: large;
+}
+
+aside {
+
+    width: 20%;
+    background-color:  #eca023;
+    min-height: 1552px;
+    padding: 20px;
+    margin-top: 2%;
+}
+footer{
+    background-color:#2f2d2d85;
+    color:white;
+    text-align:center;
+    height:50px;
+    line-height: 50px;
+}
+#efectoimg{
+float: none;
+padding: 0%;
+padding-top: 3%;
+}
+
+#estiloLetra{
+    color: black;
+    font-size: large;
+}
+article h3{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: justify;
+
+
+}
+img{
+    border-radius: 20%;
+    float: left;
+    padding-right: 5%;
+}
+#logo{
+    padding-top: 2%;
+    
+
+}
+
+#hipervinculos{
+    font-size: large;
+    color: #eca023;
+    text-align:justify;
+    text-decoration:double
+}
+thead{
+    background-color: #eca023;
+    color: black;
+    text-align: center;
+}
+tr{
+    border-color:#eca023 ;
+}
+table{
+    padding-left: 10%;
+    padding-right: 10%;
+}
